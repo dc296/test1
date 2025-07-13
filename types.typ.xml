@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+  <!-- メイン道路用 -->
+  <type id="road"    numLanes="1" speed="13.9"/>
+  <!-- 駐車レーン用 -->
+  <type id="parking" numLanes="1" speed="5.0" priority="30"/>
+</types>

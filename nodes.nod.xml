@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+  <!-- 下辺ノード -->
+  <node id="b1b"  x="40"  y="0"  type="priority"/>
+  <node id="b2b"  x="80"  y="0"  type="priority"/>
+  <node id="b3b"  x="120" y="0"  type="priority"/>
+  <node id="b4b"  x="160" y="0"  type="priority"/>
+  <node id="n2"   x="200" y="0"  type="priority"/>
+
+  <!-- 右辺ノード（外周／出入口）-->
+  <node id="exit"  x="200" y="20" type="priority"/>
+  <node id="entry" x="200" y="10" type="priority"/>
+
+  <!-- 上辺ノード -->
+  <node id="n3"   x="200" y="30" type="priority"/>
+  <node id="b4t"  x="160" y="30" type="priority"/>
+  <node id="b3t"  x="120" y="30" type="priority"/>
+  <node id="b2t"  x="80"  y="30" type="priority"/>
+  <node id="b1t"  x="40"  y="30" type="priority"/>
+</nodes>

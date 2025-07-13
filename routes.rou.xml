@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <!-- 車種定義 -->
+  <vType id="car" accel="1" decel="4.5" sigma="0.5" length="5.0" maxSpeed="1"/>
+
+  <!-- 20 台分のルート定義 -->
+  <!-- Block1_N -->
+  <route id="r_park1"  edges="e_b2t_b1t par1_tb e_b1b_b2b e_b2b_b3b e_b3b_b4b e_b4b_n2 e_n2_exit"/>
+  <route id="r_park2"  edges="e_b2t_b1t"/>
+  <route id="r_park3"  edges="e_b2t_b1t"/>
+  <route id="r_park4"  edges="e_b2t_b1t"/>
+  <route id="r_park5"  edges="e_b2t_b1t"/>
+  <route id="r_park6"  edges="e_b2t_b1t"/>
+  <route id="r_park7"  edges="e_b2t_b1t"/>
+  <route id="r_park8"  edges="e_b2t_b1t"/>
+  <route id="r_park9"  edges="e_b2t_b1t"/>
+  <!-- Block1_S -->
+  <route id="r_park10" edges="e_b1b_b2b"/>
+  <route id="r_park11" edges="e_b1b_b2b"/>
+  <route id="r_park12" edges="e_b1b_b2b"/>
+  <route id="r_park13" edges="e_b1b_b2b"/>
+  <route id="r_park14" edges="e_b1b_b2b"/>
+  <route id="r_park15" edges="e_b1b_b2b"/>
+  <route id="r_park16" edges="e_b1b_b2b"/>
+  <route id="r_park17" edges="e_b1b_b2b"/>
+  <route id="r_park18" edges="e_b1b_b2b"/>
+  <!-- Block2_N -->
+  <route id="r_park19" edges="e_b3t_b2t"/>
+  <route id="r_park20" edges="e_b3t_b2t"/>
+
+  <!-- 20 台の車両定義 -->
+  <!-- Block1_N 停車 -->
+  <vehicle id="park_1"  type="car" depart="0" departLane="0" departSpeed="0" route="r_park1" color="0,0,1">
+    <stop parkingArea="block1_1_N" duration="0"/>
+  </vehicle>
+  <vehicle id="park_2"  type="car" depart="0" departLane="0" route="r_park2">
+    <stop parkingArea="block1_2_N" duration="0"/>
+  </vehicle>
+  <vehicle id="park_3"  type="car" depart="0" departLane="0" route="r_park3">
+    <stop parkingArea="block1_3_N" duration="0"/>
+  </vehicle>
+  <vehicle id="park_4"  type="car" depart="0" departLane="0" route="r_park4">
+    <stop parkingArea="block1_4_N" duration="0"/>
+  </vehicle>
+  <vehicle id="park_5"  type="car" depart="0" departLane="0" route="r_park5">
+    <stop parkingArea="block1_5_N" duration="0"/>
+  </vehicle>
+  <vehicle id="park_6"  type="car" depart="0" departLane="0" route="r_park6">
+    <stop parkingArea="block1_6_N" duration="0"/>
+  </vehicle>
+  <vehicle id="park_7"  type="car" depart="0" departLane="0" route="r_park7">
+    <stop parkingArea="block1_7_N" duration="0"/>
+  </vehicle>
+  <vehicle id="park_8"  type="car" depart="0" departLane="0" route="r_park8">
+    <stop parkingArea="block1_8_N" duration="0"/>
+  </vehicle>
+  <vehicle id="park_9"  type="car" depart="0" departLane="0" route="r_park9">
+    <stop parkingArea="block1_9_N" duration="0"/>
+  </vehicle>
+  <!-- Block1_S 停車 -->
+  <vehicle id="park_10" type="car" depart="0" departLane="0" route="r_park10">
+    <stop parkingArea="block1_1_S" duration="0"/>
+  </vehicle>
+  <vehicle id="park_11" type="car" depart="0" departLane="0" route="r_park11">
+    <stop parkingArea="block1_2_S" duration="0"/>
+  </vehicle>
+  <vehicle id="park_12" type="car" depart="0" departLane="0" route="r_park12">
+    <stop parkingArea="block1_3_S" duration="0"/>
+  </vehicle>
+  <vehicle id="park_13" type="car" depart="0" departLane="0" route="r_park13">
+    <stop parkingArea="block1_4_S" duration="0"/>
+  </vehicle>
+  <vehicle id="park_14" type="car" depart="0" departLane="0" route="r_park14">
+    <stop parkingArea="block1_5_S" duration="0"/>
+  </vehicle>
+  <vehicle id="park_15" type="car" depart="0" departLane="0" route="r_park15">
+    <stop parkingArea="block1_6_S" duration="0"/>
+  </vehicle>
+  <vehicle id="park_16" type="car" depart="0" departLane="0" route="r_park16">
+    <stop parkingArea="block1_7_S" duration="0"/>
+  </vehicle>
+  <vehicle id="park_17" type="car" depart="0" departLane="0" route="r_park17">
+    <stop parkingArea="block1_8_S" duration="0"/>
+  </vehicle>
+  <vehicle id="park_18" type="car" depart="0" departLane="0" route="r_park18">
+    <stop parkingArea="block1_9_S" duration="0"/>
+  </vehicle>
+  <!-- Block2_N 停車 -->
+  <vehicle id="park_19" type="car" depart="0" departLane="0" route="r_park19">
+    <stop parkingArea="block2_1_N" duration="0"/>
+  </vehicle>
+  <vehicle id="park_20" type="car" depart="0" departLane="0" route="r_park20">
+    <stop parkingArea="block2_2_N" duration="0"/>
+  </vehicle>
+</routes>

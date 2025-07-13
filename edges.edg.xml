@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+  <!-- 下辺ループ（双方向） -->
+  <edge id="e_b1b_b2b" from="b1b" to="b2b" type="road"/>
+  <edge id="e_b2b_b3b" from="b2b" to="b3b" type="road"/>
+  <edge id="e_b3b_b4b" from="b3b" to="b4b" type="road"/>
+  <edge id="e_b4b_n2"  from="b4b" to="n2"  type="road"/>
+  <edge id="e_b2b_b1b" from="b2b" to="b1b" type="road"/>
+  <edge id="e_b3b_b2b" from="b3b" to="b2b" type="road"/>
+  <edge id="e_b4b_b3b" from="b4b" to="b3b" type="road"/>
+  <edge id="e_n2_b4b"  from="n2"  to="b4b" type="road"/>
+
+  <!-- 右辺ループ & 外周縦道 -->
+  <edge id="e_n2_exit"    from="n2"   to="exit"  type="road"/>
+  <edge id="e_exit_entry" from="exit" to="entry" type="road"/>
+  <edge id="e_entry_n3"   from="entry"to="n3"    type="road"/>
+  <edge id="e_exit_n2"    from="exit" to="n2"    type="road"/>
+  <edge id="e_entry_exit" from="entry"to="exit"  type="road"/>
+  <edge id="e_n3_entry"   from="n3"   to="entry" type="road"/>
+
+  <!-- 外周直通縦道（ブロック４東側アクセス用） -->
+  <edge id="e_n2_n3" from="n2" to="n3" type="road"/>
+  <edge id="e_n3_n2" from="n3" to="n2" type="road"/>
+
+  <!-- 上辺ループ（双方向） -->
+  <edge id="e_n3_b4t"  from="n3"  to="b4t"  type="road"/>
+  <edge id="e_b4t_b3t" from="b4t" to="b3t" type="road"/>
+  <edge id="e_b3t_b2t" from="b3t" to="b2t" type="road"/>
+  <edge id="e_b2t_b1t" from="b2t" to="b1t" type="road"/>
+  <edge id="e_b1t_b2t" from="b1t" to="b2t" type="road"/>
+  <edge id="e_b2t_b3t" from="b2t" to="b3t" type="road"/>
+  <edge id="e_b3t_b4t" from="b3t" to="b4t" type="road"/>
+  <edge id="e_b4t_n3"  from="b4t" to="n3"   type="road"/>
+
+  <!-- 内部縦道（各ブロック間アクセス用） -->
+  <edge id="par1_tb" from="b1t" to="b1b" type="road"/>
+  <edge id="par2_tb" from="b2t" to="b2b" type="road"/>
+  <edge id="par3_tb" from="b3t" to="b3b" type="road"/>
+  <edge id="par4_tb" from="b4t" to="b4b" type="road"/>
+  <edge id="par1_bt" from="b1b" to="b1t" type="road"/>
+  <edge id="par2_bt" from="b2b" to="b2t" type="road"/>
+  <edge id="par3_bt" from="b3b" to="b3t" type="road"/>
+  <edge id="par4_bt" from="b4b" to="b4t" type="road"/>
+</edges>

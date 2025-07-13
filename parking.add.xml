@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+  <!-- Block1 -->
+  <parkingArea id="block1_1_N" lane="e_b2t_b1t_0" startPos="0.0"   endPos="3.2"   side="left" angle="-90"/>
+  <parkingArea id="block1_2_N" lane="e_b2t_b1t_0" startPos="3.2"   endPos="6.4"   side="left" angle="-90"/>
+  <parkingArea id="block1_3_N" lane="e_b2t_b1t_0" startPos="6.4"   endPos="9.6"   side="left" angle="-90"/>
+  <parkingArea id="block1_4_N" lane="e_b2t_b1t_0" startPos="9.6"   endPos="12.8"  side="left" angle="-90"/>
+  <parkingArea id="block1_5_N" lane="e_b2t_b1t_0" startPos="12.8"  endPos="16.0"  side="left" angle="-90"/>
+  <parkingArea id="block1_6_N" lane="e_b2t_b1t_0" startPos="16.0"  endPos="19.2"  side="left" angle="-90"/>
+  <parkingArea id="block1_7_N" lane="e_b2t_b1t_0" startPos="19.2"  endPos="22.4"  side="left" angle="-90"/>
+  <parkingArea id="block1_8_N" lane="e_b2t_b1t_0" startPos="22.4"  endPos="25.6"  side="left" angle="-90"/>
+  <parkingArea id="block1_9_N" lane="e_b2t_b1t_0" startPos="25.6"  endPos="28.8"  side="left" angle="-90"/>
+  <parkingArea id="block1_1_S" lane="e_b1b_b2b_0" startPos="0.0"   endPos="3.2"   side="left" angle="-90"/>
+  <parkingArea id="block1_2_S" lane="e_b1b_b2b_0" startPos="3.2"   endPos="6.4"   side="left" angle="-90"/>
+  <parkingArea id="block1_3_S" lane="e_b1b_b2b_0" startPos="6.4"   endPos="9.6"   side="left" angle="-90"/>
+  <parkingArea id="block1_4_S" lane="e_b1b_b2b_0" startPos="9.6"   endPos="12.8"  side="left" angle="-90"/>
+  <parkingArea id="block1_5_S" lane="e_b1b_b2b_0" startPos="12.8"  endPos="16.0"  side="left" angle="-90"/>
+  <parkingArea id="block1_6_S" lane="e_b1b_b2b_0" startPos="16.0"  endPos="19.2"  side="left" angle="-90"/>
+  <parkingArea id="block1_7_S" lane="e_b1b_b2b_0" startPos="19.2"  endPos="22.4"  side="left" angle="-90"/>
+  <parkingArea id="block1_8_S" lane="e_b1b_b2b_0" startPos="22.4"  endPos="25.6"  side="left" angle="-90"/>
+  <parkingArea id="block1_9_S" lane="e_b1b_b2b_0" startPos="25.6"  endPos="28.8"  side="left" angle="-90"/>
+  
+
+  <!-- Block2 -->
+  <parkingArea id="block2_1_N" lane="e_b3t_b2t_0" startPos="0.0"   endPos="3.2"   side="right" angle="-90"/>
+  <parkingArea id="block2_2_N" lane="e_b3t_b2t_0" startPos="3.2"   endPos="6.4"   side="right" angle="-90"/>
+  <parkingArea id="block2_3_N" lane="e_b3t_b2t_0" startPos="6.4"   endPos="9.6"   side="right" angle="-90"/>
+  <parkingArea id="block2_4_N" lane="e_b3t_b2t_0" startPos="9.6"   endPos="12.8"  side="right" angle="-90"/>
+  <parkingArea id="block2_5_N" lane="e_b3t_b2t_0" startPos="12.8"  endPos="16.0"  side="right" angle="-90"/>
+  <parkingArea id="block2_6_N" lane="e_b3t_b2t_0" startPos="16.0"  endPos="19.2"  side="right" angle="-90"/>
+  <parkingArea id="block2_7_N" lane="e_b3t_b2t_0" startPos="19.2"  endPos="22.4"  side="right" angle="-90"/>
+  <parkingArea id="block2_8_N" lane="e_b3t_b2t_0" startPos="22.4"  endPos="25.6"  side="right" angle="-90"/>
+  <parkingArea id="block2_9_N" lane="e_b3t_b2t_0" startPos="25.6"  endPos="28.8"  side="right" angle="-90"/>
+  <parkingArea id="block2_1_S" lane="e_b2b_b3b_0" startPos="0.0"   endPos="3.2"   side="right" angle="-90"/>
+  <parkingArea id="block2_2_S" lane="e_b2b_b3b_0" startPos="3.2"   endPos="6.4"   side="right" angle="-90"/>
+  <parkingArea id="block2_3_S" lane="e_b2b_b3b_0" startPos="6.4"   endPos="9.6"   side="right" angle="-90"/>
+  <parkingArea id="block2_4_S" lane="e_b2b_b3b_0" startPos="9.6"   endPos="12.8"  side="right" angle="-90"/>
+  <parkingArea id="block2_5_S" lane="e_b2b_b3b_0" startPos="12.8"  endPos="16.0"  side="right" angle="-90"/>
+  <parkingArea id="block2_6_S" lane="e_b2b_b3b_0" startPos="16.0"  endPos="19.2"  side="right" angle="-90"/>
+  <parkingArea id="block2_7_S" lane="e_b2b_b3b_0" startPos="19.2"  endPos="22.4"  side="right" angle="-90"/>
+  <parkingArea id="block2_8_S" lane="e_b2b_b3b_0" startPos="22.4"  endPos="25.6"  side="right" angle="-90"/>
+  <parkingArea id="block2_9_S" lane="e_b2b_b3b_0" startPos="25.6"  endPos="28.8"  side="right" angle="-90"/>
+  
+
+  <!-- Block3 -->
+  <parkingArea id="block3_1_N" lane="e_b4t_b3t_0" startPos="0.0"  endPos="3.2"  side="right" angle="-90"/>
+  <parkingArea id="block3_2_N" lane="e_b4t_b3t_0" startPos="3.2"  endPos="6.4"  side="right" angle="-90"/>
+  <parkingArea id="block3_3_N" lane="e_b4t_b3t_0" startPos="6.4"  endPos="9.6"  side="right" angle="-90"/>
+  <parkingArea id="block3_4_N" lane="e_b4t_b3t_0" startPos="9.6"  endPos="12.8" side="right" angle="-90"/>
+  <parkingArea id="block3_5_N" lane="e_b4t_b3t_0" startPos="12.8" endPos="16.0" side="right" angle="-90"/>
+  <parkingArea id="block3_6_N" lane="e_b4t_b3t_0" startPos="16.0" endPos="19.2" side="right" angle="-90"/>
+  <parkingArea id="block3_7_N" lane="e_b4t_b3t_0" startPos="19.2" endPos="22.4" side="right" angle="-90"/>
+  <parkingArea id="block3_8_N" lane="e_b4t_b3t_0" startPos="22.4" endPos="25.6" side="right" angle="-90"/>
+  <parkingArea id="block3_9_N" lane="e_b4t_b3t_0" startPos="25.6" endPos="28.8" side="right" angle="-90"/>
+
+  <parkingArea id="block3_1_S" lane="e_b3b_b4b_0" startPos="0.0"  endPos="3.2"  side="right" angle="-90"/>
+  <parkingArea id="block3_2_S" lane="e_b3b_b4b_0" startPos="3.2"  endPos="6.4"  side="right" angle="-90"/>
+  <parkingArea id="block3_3_S" lane="e_b3b_b4b_0" startPos="6.4"  endPos="9.6"  side="right" angle="-90"/>
+  <parkingArea id="block3_4_S" lane="e_b3b_b4b_0" startPos="9.6"  endPos="12.8" side="right" angle="-90"/>
+  <parkingArea id="block3_5_S" lane="e_b3b_b4b_0" startPos="12.8" endPos="16.0" side="right" angle="-90"/>
+  <parkingArea id="block3_6_S" lane="e_b3b_b4b_0" startPos="16.0" endPos="19.2" side="right" angle="-90"/>
+  <parkingArea id="block3_7_S" lane="e_b3b_b4b_0" startPos="19.2" endPos="22.4" side="right" angle="-90"/>
+  <parkingArea id="block3_8_S" lane="e_b3b_b4b_0" startPos="22.4" endPos="25.6" side="right" angle="-90"/>
+  <parkingArea id="block3_9_S" lane="e_b3b_b4b_0" startPos="25.6" endPos="28.8" side="right" angle="-90"/>
+
+  <!-- Block4: 3.2m 間隔 -->
+  <parkingArea id="block4_1_N" lane="e_n3_b4t_0" startPos="0.0"  endPos="3.2"  side="right" angle="-90"/>
+  <parkingArea id="block4_2_N" lane="e_n3_b4t_0" startPos="3.2"  endPos="6.4"  side="right" angle="-90"/>
+  <parkingArea id="block4_3_N" lane="e_n3_b4t_0" startPos="6.4"  endPos="9.6"  side="right" angle="-90"/>
+  <parkingArea id="block4_4_N" lane="e_n3_b4t_0" startPos="9.6"  endPos="12.8" side="right" angle="-90"/>
+  <parkingArea id="block4_5_N" lane="e_n3_b4t_0" startPos="12.8" endPos="16.0" side="right" angle="-90"/>
+  <parkingArea id="block4_6_N" lane="e_n3_b4t_0" startPos="16.0" endPos="19.2" side="right" angle="-90"/>
+  <parkingArea id="block4_7_N" lane="e_n3_b4t_0" startPos="19.2" endPos="22.4" side="right" angle="-90"/>
+  <parkingArea id="block4_8_N" lane="e_n3_b4t_0" startPos="22.4" endPos="25.6" side="right" angle="-90"/>
+  <parkingArea id="block4_9_N" lane="e_n3_b4t_0" startPos="25.6" endPos="28.8" side="right" angle="-90"/>
+
+  <parkingArea id="block4_1_S" lane="e_b4b_n2_0" startPos="0.0"  endPos="3.2"  side="right" angle="-90"/>
+  <parkingArea id="block4_2_S" lane="e_b4b_n2_0" startPos="3.2"  endPos="6.4"  side="right" angle="-90"/>
+  <parkingArea id="block4_3_S" lane="e_b4b_n2_0" startPos="6.4"  endPos="9.6"  side="right" angle="-90"/>
+  <parkingArea id="block4_4_S" lane="e_b4b_n2_0" startPos="9.6"  endPos="12.8" side="right" angle="-90"/>
+  <parkingArea id="block4_5_S" lane="e_b4b_n2_0" startPos="12.8" endPos="16.0" side="right" angle="-90"/>
+  <parkingArea id="block4_6_S" lane="e_b4b_n2_0" startPos="16.0" endPos="19.2" side="right" angle="-90"/>
+  <parkingArea id="block4_7_S" lane="e_b4b_n2_0" startPos="19.2" endPos="22.4" side="right" angle="-90"/>
+  <parkingArea id="block4_8_S" lane="e_b4b_n2_0" startPos="22.4" endPos="25.6" side="right" angle="-90"/>
+  <parkingArea id="block4_9_S" lane="e_b4b_n2_0" startPos="25.6" endPos="28.8" side="right" angle="-90"/>
+  
+  
+</additional>
