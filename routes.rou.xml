@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes>
   <!-- 車種定義 -->
-  <vType id="car" accel="1" decel="4.5" sigma="0.5" length="5.0" maxSpeed="1"/>
+   <vType id="car" accel="1" decel="4.5" sigma="0.5" length="5.0" maxSpeed="1"/>
 
   <!-- 20 台分のルート定義 -->
   <!-- Block1_N -->
@@ -28,68 +28,69 @@
   <route id="r_park19" edges="e_b3t_b2t"/>
   <route id="r_park20" edges="e_b3t_b2t"/>
 
+  <!-- additional test routes -->
+  <!-- leave parking onto connected lane only -->
+  <route id="r_test_lane" edges="e_b3t_b2t"/>
+  <!-- leave parking and switch to the opposite lane -->
+  <route id="r_test_opposite" edges="e_b3t_b2t e_b2t_b3t"/>
+
   <!-- 20 台の車両定義 -->
   <!-- Block1_N 停車 -->
-  <vehicle id="park_1"  type="car" depart="0" departLane="0" departSpeed="0" route="r_park1" color="0,0,1">
-    <stop parkingArea="block1_1_N" duration="0"/>
+  <vehicle id="park_1"  type="car" depart="0" departLane="0" departSpeed="0" route="r_park1" color="0,0,1" parked="true">
+    <stop parkingArea="block1_1_N" duration="5000"/>
   </vehicle>
-  <vehicle id="park_2"  type="car" depart="0" departLane="0" route="r_park2">
-    <stop parkingArea="block1_2_N" duration="0"/>
+  <vehicle id="park_2"  type="car" depart="0" departLane="0" route="r_park2" parked="true">
+    <stop parkingArea="block1_2_N" duration="5000"/>
   </vehicle>
-  <vehicle id="park_3"  type="car" depart="0" departLane="0" route="r_park3">
-    <stop parkingArea="block1_3_N" duration="0"/>
+  <vehicle id="park_3"  type="car" depart="0" departLane="0" route="r_park3" parked="true">
+    <stop parkingArea="block1_3_N" duration="5000"/>
   </vehicle>
-  <vehicle id="park_4"  type="car" depart="0" departLane="0" route="r_park4">
-    <stop parkingArea="block1_4_N" duration="0"/>
+  <vehicle id="park_4"  type="car" depart="0" departLane="0" route="r_park4" parked="true">
+    <stop parkingArea="block1_4_N" duration="5000"/>
   </vehicle>
-  <vehicle id="park_5"  type="car" depart="0" departLane="0" route="r_park5">
-    <stop parkingArea="block1_5_N" duration="0"/>
+  <vehicle id="park_5"  type="car" depart="0" departLane="0" route="r_park5" parked="true">
+    <stop parkingArea="block1_5_N" duration="5000"/>
   </vehicle>
-  <vehicle id="park_6"  type="car" depart="0" departLane="0" route="r_park6">
-    <stop parkingArea="block1_6_N" duration="0"/>
+  <vehicle id="park_6"  type="car" depart="0" departLane="0" route="r_park6" parked="true">
+    <stop parkingArea="block1_6_N" duration="5000"/>
   </vehicle>
-  <vehicle id="park_7"  type="car" depart="0" departLane="0" route="r_park7">
-    <stop parkingArea="block1_7_N" duration="0"/>
+  <vehicle id="park_7"  type="car" depart="0" departLane="0" route="r_park7" parked="true">
+    <stop parkingArea="block1_7_N" duration="5000"/>
   </vehicle>
-  <vehicle id="park_8"  type="car" depart="0" departLane="0" route="r_park8">
-    <stop parkingArea="block1_8_N" duration="0"/>
+  <vehicle id="park_8"  type="car" depart="0" departLane="0" route="r_park8" parked="true">
+    <stop parkingArea="block1_3_S" duration="5000"/>
   </vehicle>
-  <vehicle id="park_9"  type="car" depart="0" departLane="0" route="r_park9">
-    <stop parkingArea="block1_9_N" duration="0"/>
+  <vehicle id="park_13" type="car" depart="0" departLane="0" route="r_park13" parked="true">
+    <stop parkingArea="block1_4_S" duration="5000"/>
   </vehicle>
-  <!-- Block1_S 停車 -->
-  <vehicle id="park_10" type="car" depart="0" departLane="0" route="r_park10">
-    <stop parkingArea="block1_1_S" duration="0"/>
+  <vehicle id="park_14" type="car" depart="0" departLane="0" route="r_park14" parked="true">
+    <stop parkingArea="block1_5_S" duration="5000"/>
   </vehicle>
-  <vehicle id="park_11" type="car" depart="0" departLane="0" route="r_park11">
-    <stop parkingArea="block1_2_S" duration="0"/>
+  <vehicle id="park_15" type="car" depart="0" departLane="0" route="r_park15" parked="true">
+    <stop parkingArea="block1_6_S" duration="5000"/>
   </vehicle>
-  <vehicle id="park_12" type="car" depart="0" departLane="0" route="r_park12">
-    <stop parkingArea="block1_3_S" duration="0"/>
+  <vehicle id="park_16" type="car" depart="0" departLane="0" route="r_park16" parked="true">
+    <stop parkingArea="block1_7_S" duration="5000"/>
   </vehicle>
-  <vehicle id="park_13" type="car" depart="0" departLane="0" route="r_park13">
-    <stop parkingArea="block1_4_S" duration="0"/>
+  <vehicle id="park_17" type="car" depart="0" departLane="0" route="r_park17" parked="true">
+    <stop parkingArea="block1_8_S" duration="5000"/>
   </vehicle>
-  <vehicle id="park_14" type="car" depart="0" departLane="0" route="r_park14">
-    <stop parkingArea="block1_5_S" duration="0"/>
-  </vehicle>
-  <vehicle id="park_15" type="car" depart="0" departLane="0" route="r_park15">
-    <stop parkingArea="block1_6_S" duration="0"/>
-  </vehicle>
-  <vehicle id="park_16" type="car" depart="0" departLane="0" route="r_park16">
-    <stop parkingArea="block1_7_S" duration="0"/>
-  </vehicle>
-  <vehicle id="park_17" type="car" depart="0" departLane="0" route="r_park17">
-    <stop parkingArea="block1_8_S" duration="0"/>
-  </vehicle>
-  <vehicle id="park_18" type="car" depart="0" departLane="0" route="r_park18">
-    <stop parkingArea="block1_9_S" duration="0"/>
+  <vehicle id="park_18" type="car" depart="0" departLane="0" route="r_park18" parked="true">
+    <stop parkingArea="block1_9_S" duration="5000"/>
   </vehicle>
   <!-- Block2_N 停車 -->
-  <vehicle id="park_19" type="car" depart="0" departLane="0" route="r_park19">
-    <stop parkingArea="block2_1_N" duration="0"/>
+  <vehicle id="park_19" type="car" depart="0" departLane="0" route="r_park19" parked="true">
+    <stop parkingArea="block2_1_N" duration="5000"/>
   </vehicle>
-  <vehicle id="park_20" type="car" depart="0" departLane="0" route="r_park20">
-    <stop parkingArea="block2_2_N" duration="0"/>
+  <vehicle id="park_20" type="car" depart="0" departLane="0" route="r_park20" parked="true">
+    <stop parkingArea="block2_2_N" duration="5000"/>
+  </vehicle>
+
+  <!-- vehicles used for parking lane tests -->
+  <vehicle id="test_lane" type="car" depart="0" route="r_test_lane" parked="true">
+    <stop parkingArea="block2_3_N" duration="1"/>
+  </vehicle>
+  <vehicle id="test_opposite" type="car" depart="0" route="r_test_opposite" parked="true">
+    <stop parkingArea="block2_4_N" duration="1"/>
   </vehicle>
 </routes>
